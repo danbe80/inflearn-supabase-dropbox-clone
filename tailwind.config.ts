@@ -8,7 +8,13 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        "logo-box": "#6C5CE7",
+      },
+    },
+  },
   plugins: [require("@tailwindcss/typography")],
 };
 
