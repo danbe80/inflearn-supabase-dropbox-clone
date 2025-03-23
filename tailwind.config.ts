@@ -11,7 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "logo-box": "#6C5CE7",
+        "logo-box": "#6C5CE7", // Logo Color
+        "upload-border": "#A29BFE", // File Upload Border Color
       },
     },
   },

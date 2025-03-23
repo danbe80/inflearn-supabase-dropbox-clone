@@ -2,8 +2,9 @@
 
 export default function FileUploadZone() {
   return (
-    <section className="w-full h-44 mt-2 border-2 border-dotted border-red-200 rounded-md">
-      파일 업로드 영역
+    <section className="w-full h-24 mt-2 flex flex-col justify-center items-center border-2 border-dashed border-upload-border rounded-md">
+      <i className="fas fa-download text-4xl text-gray-500" />
+      <span className="text-gray-500 mt-2">Upload File</span>
     </section>
   );
 }
