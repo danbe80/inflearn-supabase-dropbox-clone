@@ -5,7 +5,7 @@ import { Checkbox } from "@material-tailwind/react";
 export default function ImageFileBox() {
   return (
     <div className="w-full flex-col justify-center items-center relative">
-      <div className="absolute z-10">
+      <div className="absolute z-10 hidden">
         <Checkbox />
       </div>
       <img
